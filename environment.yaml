@@ -1,0 +1,13 @@
+name: ACM_Hack
+channels:
+  - defaults
+dependencies:
+  - jupyterlab==1.1.4
+  - spyder==4.0.0
+  - libopencv
+  - r-opencv
+  - opencv
+  - py-opencv
+  - pylint
+prefix: /home/pratap/anaconda3/envs/ACM_Hack
+

@@ -4,8 +4,7 @@ channels:
 dependencies:
   - jupyterlab==1.1.4
   - spyder==4.0.0
-  - libopencv
-  - r-opencv
+  - libopencv 
   - opencv
   - py-opencv
   - pylint

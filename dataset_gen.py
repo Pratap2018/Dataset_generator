@@ -55,7 +55,7 @@ class Dataset_Generator:
             self.newpath=self.data_set_path+'/'+clas
         
         ret, frame = self.vid.get_frame() 
-        frame=frame[1:350,289:639]
+        frame=frame[1:350,289:638]
         if ret:
             cv2.imwrite(self.newpath+'/'+clas +'_'+str(len(os.listdir(self.newpath)))+ ".jpg", cv2.cvtColor(frame, cv2.COLOR_RGB2BGR))
  
@@ -103,4 +103,4 @@ class MyVideoCapture:
  
  # Create a window and pass it to the Application object
 
-Dataset_Generator(tkinter.Tk(), "Tkinter and OpenCV",rotation=0)
+Dataset_Generator(tkinter.Tk(), "DataSet Gen",rotation=0)
